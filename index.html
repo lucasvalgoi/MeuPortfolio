@@ -5,16 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifólio Pessoal</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.1/css/all.css">
 </head>
 <body>
     <header>
         <img src="src/logo-lucasvalgoi.png" width="200px" alt="logotipo Lucas Luis Valgoi">
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contatos">Contatos</a></li>
+                <li>
+                    <a href="#home">
+                        <span class="fa fa-home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills">
+                        <span class="fa fa-lightbulb"></span>
+                        <span>Skills</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projetos">
+                        <span class="fa fa-book"></span>
+                        <span>Projetos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contatos">
+                        <span class="fa fa-phone"></span>
+                        <span>Contatos</span>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -23,25 +44,63 @@
             <h1>Lucas Luis Valgoi</h1>
             <h2>Desenvolvedor FrontEnd</h2>
             <!-- pequeno parágrafo sobre mim -->
-            <p></p>
-            <!-- selfie pessoal-->
-             <img src="" alt="imagem de Lucas Luis Valgoi">
+            <p>Desde que comecei meus estudos na área da programação em Dez/2023, fui me interessando e buscando cada vez mais me aprimorar nos meus conhecimentos técnicos e interpessoais, procurando por cursos ou eventos online que pudessem me capacitar na área. Atualmente, possuo mais conhecimentos técnicos na Programação WEB com foco em FrontEnd, mas busco me especializar também no BackEnd.</p>
+            <!-- selfie pessoal -->
+            <img src="" alt="imagem de Lucas Luis Valgoi">
+            <!-- botão para download do meu currículo -->
+            <button><a href="src/curriculo_oficial.pdf" download>Download Currículo Completo</a></button>
         </section>
         <section id="skills">
             <!-- principais skills -->
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <div class="hardskills">
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>Lógica de Programação</li>
+                    <li>JavaScript</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Sistema de Controle de Versão - Git</li>
+                </ul>
+            </div>
+            <div class="softskills">
+                <h3>SoftSkills</h3>
+                <ul>
+                    <li>Comunicação</li>
+                    <li>Interatividade</li>
+                    <li>Trabalho em Equipe</li>
+                    <li>Proatividade</li>
+                    <li>Participativo</li>
+                </ul>
+            </div>
         </section>
         <section id="projetos">
             <!-- projetos reais do meu github -->
+            <h2>Meus Projetos</h2>
+
         </section>
     </main>
     <footer>
         <section id="contatos"></section>
+        <ul>
+            <li>
+                <a href="https://github.com/lucasvalgoi" target="_blank">
+                    <span class="fa-brands fa-github"></span>
+                    <span>GitHub</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/lucas-luis-valgoi" target="_blank">
+                    <span class="fa-brands fa-linkedin"></span>
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/lucasvalgoi/" target="_blank">
+                    <span class="fa-brands fa-instagram"></span>
+                    <span>Instagram</span>
+                </a>
+            </li>
+        </ul>
         <p>&copy; 2024, Lucas Luis Valgoi - Meu Portifólio</p>
     </footer>
 
