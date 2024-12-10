@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    display: flex;
+    color: #030b5ee4;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    background-color: #030b5ee4;
+    height: 10vh;
+    width: 100vw; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 8px;
+}
+
+#contatos, #contatos h3 {
+    color: white;
+}
+
+
+ul li a {
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#sobre {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+#sobre .txt-main h1 {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#sobre .txt-main h2 {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#sobre .txt-main p {
+    font-size: larger;
+    width: 50vw;
+    margin: 10px;
+}
+
+#sobre .img-btn-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobre img {
+    border-radius: 50%;
+    width: 200px;
+    margin: 10px;
+}
+
+#sobre button {
+    background-color: #030b5ee4;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+    height: 70px;
+}
+
+#sobre button a {
+    text-decoration: none;
+    color: white;
+}
+
+#sobre button:hover {
+    box-shadow: 0 0 8px #030b5ee4;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin: 16px;
+}
+
+#skills ul {
+    padding: 12px;
+}
+
+#skills li {
+    font-size: large;
+}
+
+#skills h3 {
+    font-size: 30px;
+    margin: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html, body {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "hearder-container"
+    "main-container"
+    "footer-container";
+}
+
+.header-container {
+    grid-area: header-container;
+    grid-column: 1;
+    grid-row: 1 / 2;
+}
+
+.main-container {
+    grid-area: main-container;
+    grid-column: 1;
+    grid-row: 2 / 4;
+}
+
+.footer-container {
+    grid-area: footer-container;
+    grid-column: 1;
+    grid-row: 5 / 5;
+} */
