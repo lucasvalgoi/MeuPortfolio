@@ -6,6 +6,7 @@
     <title>Meu Portifólio Pessoal</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.1/css/all.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header class="header-container">
@@ -80,14 +81,17 @@
             </div>
         </section>
         <section id="projetos">
-            <!-- projetos reais do meu github -->
-            <h2>Meus Projetos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ullam asperiores quasi quisquam! Delectus deserunt commodi quos modi error eaque dolore. Iure aliquid nostrum aut quos blanditiis, ut quidem cupiditate!</p>
+            <h2 class="titulo-projetos">Meus Projetos</h2>
+            <div class="conteudo-projetos">
+                <div class="grid-projetos" id="lista-projetos">
+                    <!-- Projetos carregados pela API do GitHub -->
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer-container">
         <section id="contatos">
-        <h3>Contatos</h3>
+        <h3 id="titulo-contato">Contatos</h3>
         <ul>
             <li>
                 <a href="https://github.com/lucasvalgoi" target="_blank">
@@ -111,7 +115,5 @@
         <p>&copy; 2024, Lucas Luis Valgoi - Meu Portifólio</p>
         </section>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
