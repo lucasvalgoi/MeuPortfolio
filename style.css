@@ -2,13 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+    width:  100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, h3 {
@@ -20,23 +24,28 @@ h1, h2, h3 {
 
 header, footer {
     background-color: #030b5ee4;
-    height: 10vh;
-    width: 100vw; 
+    height: 10%;
+    width: 100%; 
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-footer ul {
+#contatos, #titulo-contato {
+    height: 100%;
     display: flex;
-    justify-content: space-around;
-    margin: 8px;
-}
-
-#contatos, #contatos h3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
     color: white;
 }
 
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+}
 
 ul li a {
     color: #fff;
@@ -56,17 +65,16 @@ ul li {
 }
 
 main {
-    width: 100vw;
-    height: 80vh;
+    width: 100%;
+    min-height: 80%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     flex-wrap: wrap;
 }
 
 #sobre {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,42 +82,41 @@ main {
     gap: 20px;
 }
 
-#sobre .txt-main h1 {
-    margin: 10px;
+.txt-main {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+    gap: 10px;
+}
+
+.txt-main h1 {
     font-size: 50px;
 }
 
-#sobre .txt-main h2 {
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.txt-main h2 {
     font-size: 30px;
 }
 
-#sobre .txt-main p {
+.txt-main p {
     font-size: larger;
-    width: 50vw;
-    margin: 10px;
+    width: 70%;
 }
 
-#sobre .img-btn-main{
+.img-btn-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#sobre img {
+.img-btn-main img {
     border-radius: 50%;
     width: 200px;
     margin: 10px;
 }
 
-#sobre button {
+.img-btn-main button {
     background-color: #030b5ee4;
     padding: 10px 40px;
     font-size: 20px;
@@ -120,12 +127,12 @@ main {
     height: 70px;
 }
 
-#sobre button a {
+.img-btn-main button a {
     text-decoration: none;
     color: white;
 }
 
-#sobre button:hover {
+.img-btn-main button:hover {
     box-shadow: 0 0 8px #030b5ee4;
 }
 
