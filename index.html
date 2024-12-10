@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.1/css/all.css">
 </head>
 <body>
-    <header>
-        <img src="src/logo-lucasvalgoi.png" width="200px" alt="logotipo Lucas Luis Valgoi">
+    <header class="header-container">
+        <img src="src/logo-lucasvalgoi.png" width="300px" alt="logotipo Lucas Luis Valgoi">
         <nav>
             <ul>
                 <li>
-                    <a href="#home">
+                    <a href="#sobre">
                         <span class="fa fa-home"></span>
-                        <span>Home</span>
+                        <span>Sobre</span>
                     </a>
                 </li>
                 <li>
@@ -39,17 +39,22 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="home">
-            <h1>Lucas Luis Valgoi</h1>
-            <h2>Desenvolvedor FrontEnd</h2>
-            <!-- pequeno parágrafo sobre mim -->
-            <p>Desde que comecei meus estudos na área da programação em Dez/2023, fui me interessando e buscando cada vez mais me aprimorar nos meus conhecimentos técnicos e interpessoais, procurando por cursos ou eventos online que pudessem me capacitar na área. Atualmente, possuo mais conhecimentos técnicos na Programação WEB com foco em FrontEnd, mas busco me especializar também no BackEnd.</p>
+    <main class="main-container">
+        <section id="sobre">
+            <div class="txt-main">
+                <h1>Lucas Luis Valgoi</h1>
+                <h2>Desenvolvedor FrontEnd</h2>
+                <!-- pequeno parágrafo sobre mim -->
+                <p>Desde que comecei meus estudos na área da programação em Dez/2023, fui me interessando e buscando cada vez mais me aprimorar nos meus conhecimentos técnicos e interpessoais, procurando por cursos ou eventos online que pudessem me capacitar na área. Atualmente, possuo mais conhecimentos técnicos na Programação WEB com foco em FrontEnd, mas busco me especializar também no BackEnd.</p>
+            </div>
             <!-- selfie pessoal -->
-            <img src="src/Foto Perfil Lucas Editada - HD Sem Fundo.png" width="200px" alt="imagem de Lucas Luis Valgoi">
-            <img src="src/Foto-Perfil-Linkedin.png" width="200px" alt="imagem de Lucas Luis Valgoi">
+            <div class="img-btn-main">
+                <img src="src/Foto-Perfil-Linkedin.png" alt="imagem de Lucas Luis Valgoi">
             <!-- botão para download do meu currículo -->
-            <button><a href="src/curriculo_oficial.pdf" download>Download Currículo Completo</a></button>
+                <button>
+                    <a href="src/curriculo_oficial.pdf" download>Download Currículo Completo</a>
+                </button>
+            </div>
         </section>
         <section id="skills">
             <!-- principais skills -->
@@ -77,11 +82,12 @@
         <section id="projetos">
             <!-- projetos reais do meu github -->
             <h2>Meus Projetos</h2>
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ullam asperiores quasi quisquam! Delectus deserunt commodi quos modi error eaque dolore. Iure aliquid nostrum aut quos blanditiis, ut quidem cupiditate!</p>
         </section>
     </main>
-    <footer>
-        <section id="contatos"></section>
+    <footer class="footer-container">
+        <section id="contatos">
+        <h3>Contatos</h3>
         <ul>
             <li>
                 <a href="https://github.com/lucasvalgoi" target="_blank">
@@ -103,6 +109,7 @@
             </li>
         </ul>
         <p>&copy; 2024, Lucas Luis Valgoi - Meu Portifólio</p>
+        </section>
     </footer>
 
     <script src="script.js"></script>
